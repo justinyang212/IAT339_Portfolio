@@ -1,0 +1,14 @@
+@font-face {
+  font-family: bodyFont;
+  src: url("../fonts/MaisonNeue_Book.otf");
+}
+
+@font-face {
+  font-family: bold;
+  src: url("../fonts/MaisonNeue_Bold.otf");
+}
+
+@font-face {
+  font-family: logo;
+  src: url("../fonts/Ogg-Regular.otf");
+}
