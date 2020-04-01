@@ -1,0 +1,155 @@
+/* IMAGEBANNER CSS IS IN STYLEGUIDE.CSS */
+
+/* JUSTINYANG LOGO */
+ .logo{
+   margin-top: -.5em;
+   margin-left: 1em;
+   font-size: 400%;
+ }
+
+/* LOGO + WHAT U DO */
+.mainheader{
+  display:flex;
+}
+
+/* WHAT U DO */
+.description{
+  margin-left: 1.5em;
+  margin-top: -1em;
+}
+
+/* NAV DIV */
+.navigation{
+  position: fixed;
+ top:1.5em;
+ right:8em;
+}
+
+/* NAV DIV - LINKS INSIDE */
+.navigation a{
+  margin-left:2em;
+  text-decoration:none;
+  color:black;
+}
+
+/* NAV DIV - LINKS INSIDE HOVER */
+.navigation a:hover{
+  border-bottom: solid 1px black;
+}
+
+/* PROJECT IMAGE LINKS ON HOME*/
+.imagebanner{
+  margin-bottom:3em;
+}
+
+/* PARENT WRAP FOR PROJECT IMAGES */
+.projects{
+  width:80%;
+  margin: 0 auto;
+}
+
+/* PARENT WRAP FOR A SINGLE PROJECT*/
+.singleprojectpost{
+  display: flex;
+  /* flex-direction: row; */
+  justify-content:center;
+
+}
+
+/*IMAGE BANNER*/
+.imagepost{
+padding: 1em;
+margin-right:1em;
+}
+
+/*IMAGE BANNER DESCRIPT*/
+.textpostux{
+  font-family:logo;
+  margin:0em;
+  padding:0em;
+  margin-right:1em;
+  font-size:130%;
+}
+
+.textpostimg{
+  font-family:logo;
+  padding:0em;
+  font-size:130%;
+}
+
+/*FOR FOOTER*/
+.footerdiv{
+  margin: 2em;
+  font-size: 70%;
+}
+
+.resumelink{
+  right:8em;
+}
+
+/* !!!! MEDIA QUERY STUFF!!!! */
+@media only screen and (max-width: 1000px){
+
+/* LOGO + WHAT U DO */
+  .mainheader{
+    display: inherit;
+    text-align:center;
+  }
+
+  .mainheader h1{
+    display: inline-block;
+  }
+
+  .mainheader p{
+    display: inline-block;
+    text-align: left;
+  }
+
+  /* NAV DIV */
+  .navigation{
+    position: inherit;
+    top:7em;
+    text-align:center;
+    margin-top:-1em;
+  }
+
+.navigation a{
+  display: inline-block
+}
+  /* LOGO */
+  .logo{
+    font-size: 280%;
+  }
+
+  /* WHAT U DO */
+  .description{
+    font-size:80%;
+  }
+
+  /* PROJECT IMAGE LINKS ON HOME*/
+  .imagebanner{
+    width:100%;
+    margin-top: 2em;
+    margin-bottom:1em;
+  }
+
+  .projects{
+    width:100%;
+  }
+
+.singleprojectpost{
+  display: block;
+}
+  .textpostux{
+    display:none;
+  }
+
+  .textpostimg{
+    display:none;
+  }
+
+  .footerdiv{
+    text-align:center;
+    font-size: 70%;
+  }
+}

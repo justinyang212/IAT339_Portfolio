@@ -63,6 +63,10 @@ section code {
   TEXT ELEMENTS -------------------
 */
 
+*{
+  font-weight:normal;
+}
+
 .body{
   letter-spacing: .25px;
   line-height: 120%;
