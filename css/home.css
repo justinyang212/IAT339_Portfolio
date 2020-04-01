@@ -83,8 +83,14 @@ margin-right:1em;
   font-size: 70%;
 }
 
-.resumelink{
-  right:8em;
+.footerlink{
+  text-decoration: none;
+  color: black;
+margin-right:1em;
+}
+
+.footerlink:hover{
+  border-bottom: solid 1px black;
 }
 
 /* !!!! MEDIA QUERY STUFF!!!! */
@@ -151,5 +157,11 @@ margin-right:1em;
   .footerdiv{
     text-align:center;
     font-size: 70%;
+  }
+
+  .footerlink{
+    margin: .5em;
+    position:relative;
+    width: 50%;
   }
 }
