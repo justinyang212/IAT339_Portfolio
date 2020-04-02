@@ -52,42 +52,6 @@ margin-right:1em;
 /* !!!! MEDIA QUERY STUFF!!!! */
 @media only screen and (max-width: 1000px){
 
-/* LOGO + WHAT U DO */
-  .mainheader{
-    display: inherit;
-    text-align:center;
-  }
-
-  .mainheader h1{
-    display: inline-block;
-  }
-
-  .mainheader p{
-    display: inline-block;
-    text-align: left;
-  }
-
-  /* NAV DIV */
-  .navigation{
-    position: inherit;
-    top:7em;
-    text-align:center;
-    margin-top:-1em;
-  }
-
-.navigation a{
-  display: inline-block
-}
-  /* LOGO */
-  .logo{
-    font-size: 280%;
-  }
-
-  /* WHAT U DO */
-  .description{
-    font-size:80%;
-  }
-
   /* PROJECT IMAGE LINKS ON HOME*/
   .imagebanner{
     width:100%;

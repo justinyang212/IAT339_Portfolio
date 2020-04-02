@@ -1,0 +1,75 @@
+.supheader{
+  font-family:logo;
+}
+
+.projectheader{
+  margin-left: 3em;
+  font-size: 200%;
+  margin-top:-.5em;
+  margin-bottom:1.5em;
+}
+
+.entirewriteup{
+  margin-left: 6em;
+  width: 50%;
+}
+
+.projectbody{
+  line-height: 125%;
+  letter-spacing: 20%;
+  font-size: 90%;
+}
+
+.projectimgandcaption{
+  margin-top:1.5em;
+  margin-bottom:1.5em;
+  line-height: 90%;
+}
+
+.projectimg{
+  -webkit-box-shadow: 0px 0px 0px 1px #000;
+  -moz-box-shadow: 0px 0px 0px 1px #000;
+  box-shadow: 0px 0px 0px 1px #000;
+  width: 100%;
+}
+
+.projectimgdivmiddle{
+margin-left:1em;
+margin-right:1em;
+}
+
+.projectimgcaption{
+  font-size: 60%;
+}
+
+.projectimgstogether{
+  display: flex;
+  justify-content: space-between;
+}
+
+.projectvideo{
+    width: 50%;
+    margin-left: 5.6em;
+    margin-bottom: 3em;
+}
+
+@media only screen and (max-width: 1000px){
+  .projectheader{
+    margin-top:1em;
+    margin-bottom:1em;
+    margin-left: 0em;
+    font-size: 150%;
+  }
+
+  .entirewriteup{
+    margin-left: 0em;
+    width: 100%;
+  }
+
+  .projectvideo{
+    margin-top:-3em;
+    margin-left:0em;
+    margin-bottom:0em;
+      width: 100%;
+  }
+}
