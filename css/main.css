@@ -17,10 +17,9 @@ body {
 /* JUSTINYANG LOGO */
  .logo{
    font-family: logo;
-   font-size: 3em;
    margin-top: -.5em;
    margin-left: 1em;
-   font-size: 400%;
+   font-size: 4rem;
    text-decoration: none;
    color: black;
  }
@@ -44,6 +43,7 @@ body {
 /* NAV DIV */
 .navigation{
   position: fixed;
+
  top:1.5em;
  right:8em;
 }
@@ -63,7 +63,7 @@ body {
 /*FOR FOOTER*/
 .footerdiv{
   margin: 2em;
-  font-size: 70%;
+  font-size: .7rem;
 }
 
 .footerlink{
@@ -97,7 +97,9 @@ margin-right:1em;
       position: inherit;
       top:7em;
       text-align:center;
-      margin-top:-1em;
+      margin-top:-.5em;
+      margin-right:1.8em;
+      font-size: 2rem;
     }
 
   .navigation a{
@@ -105,12 +107,12 @@ margin-right:1em;
   }
     /* LOGO */
     .logo{
-      font-size: 280%;
+      font-size: 3.5rem;
     }
 
     /* WHAT U DO */
     .description{
-      font-size:80%;
+      font-size:1rem;
     }
 
 .footerdiv{
@@ -123,4 +125,18 @@ margin-right:1em;
   position:relative;
   width: 50%;
 }
+}
+
+@media only screen and (max-width: 584px){
+  .description{
+    font-size:.8rem;
+  }
+
+  .logo{
+    font-size:2.5rem;
+  }
+
+  .navigation{
+    font-size: 1.5rem;
+  }
 }
